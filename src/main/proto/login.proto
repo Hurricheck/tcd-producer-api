@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package example.simple;
+
+message LoginMessage {
+    int64 id = 1;
+    string name = 2;
+    string password_hash = 3;
+    string login_ts = 4;
+}
